@@ -1,4 +1,3 @@
-Creating a README file for your npm package is essential for providing users with information about what your package does, how to install it, and how to use it. Here’s a template to get you started. You can customize it according to your specific project details.
 
 ```markdown
 # Express MVC Setup
