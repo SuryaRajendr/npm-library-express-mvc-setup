@@ -51,7 +51,7 @@ function addSwaggerSetup(basePath, ext) {
 
   const swaggerSetup = `
     const express = require('express');
-    const { swaggerUi, swaggerDocs } = require('../config/swaggerConfig');
+    const { swaggerUi, swaggerDocs } = require('./config/swaggerConfig');
 
     const app = express();
     app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocs));
